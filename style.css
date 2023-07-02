@@ -1,0 +1,15 @@
+/* % Variabili Custom CSS */
+
+/* Definizione variabili */
+:root {
+  --colore-primario: #3498db;
+  --colore-secondario: #2ecc71;
+  --font-base: 16px;
+}
+
+/* Utilizzo variabili */
+h1 {
+  color: var(--colore-primario);
+  font-size: calc(var(--font-base) * 1.5);
+  background-color: var(--colore-secondario, #3498db);
+}
