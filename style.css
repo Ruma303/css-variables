@@ -3,7 +3,7 @@
 /* Definizione variabili */
 :root {
   --colore-primario: #3498db;
-  --colore-secondario: #2ecc71;
+  --colore-secondario: #ccc;
   --font-base: 16px;
 }
 
@@ -13,3 +13,46 @@ h1 {
   font-size: calc(var(--font-base) * 1.5);
   background-color: var(--colore-secondario, #3498db);
 }
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+/* font-family: Arial, sans-serif; */
+
+/* @font-face {
+  font-family: "MioFontPersonalizzato";
+  src: url("MioFontPersonalizzato.woff2") format("woff2"),
+    url("MioFontPersonalizzato.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/*% Caratteri Speciali */
+
+/* h1::after {
+  content: "Copyright \00A9 2023";
+} */
+/* p::before {
+  content: "Virgolette aggiunte: \" e anche backslash aggiunto \\. ";
+} */
+
+
+/* % Font Awesome */
+/*
+i {
+    color: red;
+    transform: rotate(45deg);
+} */
+/*
+.fa-solid.fa-user {
+    color: red;
+    transform: rotate(45deg);
+} */
+
+/*
+.user {
+    color: red;
+    transform: rotate(45deg);
+} */
