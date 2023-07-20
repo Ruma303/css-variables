@@ -1,8 +1,11 @@
+/*% Import*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 /* % Variabili Custom CSS */
 
 /* Definizione variabili */
 :root {
-  --colore-primario: #3498db;
+  --colore-primario: hotpink;
   --colore-secondario: #ccc;
   --font-base: 16px;
 }
@@ -12,11 +15,13 @@ h1 {
   color: var(--colore-primario);
   font-size: calc(var(--font-base) * 1.5);
   background-color: var(--colore-secondario, #3498db);
+  font-family: 'Cabin', sans-serif;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Cabin', "Roboto", sans-serif;
   font-weight: 700;
+  color: #fe3547;
 }
 
 /* font-family: Arial, sans-serif; */
@@ -27,19 +32,31 @@ p {
     url("MioFontPersonalizzato.woff") format("woff");
   font-weight: 400;
   font-style: normal;
-} */
-
+}
+ */
 /*% Caratteri Speciali */
 
 /* h1::after {
-  content: "Copyright \00A9 2023";
-} */
-/* p::before {
-  content: "Virgolette aggiunte: \" e anche backslash aggiunto \\. ";
+  content: " Copyright \00A9 2023";
+}
+p::before {
+  content: "Virgolette aggiunte: C:\\Users\\Matteo e anche backslash aggiunto \"\\. ";
 } */
 
 
 /* % Font Awesome */
+
+/* .fawesome {
+    color: red;
+    font-size: 5rem;
+}
+
+#astro {
+    color: aquamarine;
+    transform: rotate(45deg);
+}
+
+ */
 /*
 i {
     color: red;
